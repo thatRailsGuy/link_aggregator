@@ -1,4 +1,5 @@
 LinkAggregator::Application.routes.draw do
+  get "landings/index"
   resources :links
 
   resources :tags
